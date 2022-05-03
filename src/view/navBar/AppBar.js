@@ -106,7 +106,10 @@ function NavBar() {
                   container
                 >
                   <Grid display="flex" justifyContent="flex-start" xs={6} item>
-                    <Typography sx={{ fontWeight: '800' }} variant="h4">
+                    <Typography
+                      sx={{ fontWeight: '800', color: '#907ad6' }}
+                      variant="h4"
+                    >
                       Logo
                     </Typography>
                   </Grid>
