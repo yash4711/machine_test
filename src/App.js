@@ -6,7 +6,7 @@ import theme from './theme'
 import { SnackbarProvider } from 'notistack'
 import { get } from 'lodash'
 
-import LandingPage from './view/landing/LandingPage'
+import LandingPage from './view/dashBoard/LandingPage'
 
 function App() {
   return (

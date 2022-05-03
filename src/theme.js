@@ -6,16 +6,35 @@ const theme = responsiveFontSizes(
       MuiTypography: {
         styleOverrides: {
           root: {
-            fontsize: '17px',
-            color: '#ffffff',
+            color: '#6a607f',
+          },
+          h1: {
+            color: '#655093',
+          },
+          h2: {
+            color: '#655093',
+          },
+          h3: {
+            color: '#655093',
+          },
+          h4: {
+            color: '#655093',
+          },
+          h5: {
+            color: '#655093',
+          },
+          h6: {
+            color: '#655093',
           },
         },
       },
       MuiOutlinedInput: {
         styleOverrides: {
           root: {
-            color: '#ffffff',
-            backgroundColor: '#f5f5f5',
+            color: '#6b6080',
+            borderRadius: '15px',
+            height: '45px',
+            backgroundColor: '#faf8fe',
           },
         },
       },
@@ -23,7 +42,8 @@ const theme = responsiveFontSizes(
         styleOverrides: {
           root: {
             borderRadius: '10px',
-            padding: '10px 25px',
+            textTransform: 'none',
+            padding: '10px 15px',
           },
         },
       },
@@ -40,22 +60,22 @@ const theme = responsiveFontSizes(
     },
     spacing: 2,
     typography: {
-      fontFamily: ['Montserrat'],
+      fontFamily: ['Nunito'],
       contrastText: '#000000',
     },
     palette: {
       background: {
-        primary: '#FFFFFF',
+        primary: '#655093',
         secondary: '#F7F8FA',
         contrastText: '#ffffff',
       },
       primary: {
-        main: '#ffffff',
-        contrastText: '#FFFFFF',
+        main: '#907ad6',
+        contrastText: '#ffffff',
       },
       secondary: {
-        main: '#70B754',
-        contrastText: '#FFFFFF',
+        main: '#faf8fe',
+        contrastText: '#c7c0d9',
       },
       error: {
         main: '#DB1515',
@@ -75,7 +95,7 @@ const theme = responsiveFontSizes(
       },
       text: {
         primary: '#616368',
-        secondary: '#FFFFFF',
+        secondary: '#000000',
       },
       border: {
         primary: '#707070',
